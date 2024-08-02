@@ -647,6 +647,39 @@ button:hover {
 .cvdw:hover {
     background-color: #45a049;
 }
+        footer {
+    background-color: #333;
+    padding: 1em 0;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-icon {
+    font-size: 40px;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
         @media screen and (max-width: 768px) {
     /* Tablet Styles */
     .header-container {
@@ -1002,5 +1035,20 @@ button:hover {
             loop: true
         });
     </script>
+    <footer>
+        <div class="footer-container">
+            <div class="social-icons">
+                <a href="https://www.instagram.com/lira_040408/" target="_blank">
+                    <i class="fab fa-instagram social-icon"></i>
+                </a>
+                <a href="http://discordapp.com/users/881438635080167424" target="_blank">
+                    <i class="fab fa-discord social-icon"></i>
+                </a>
+                <a href="mailto:alirafiasshiddiq@gmail.com" target="_blank">
+                    <i class="fas fa-envelope social-icon"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
