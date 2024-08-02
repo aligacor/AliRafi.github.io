@@ -634,6 +634,39 @@ margin: 10% 35%;
 .cvdw:hover {
 background-color: #45a049;
 }
+footer {
+    background-color: #333;
+    padding: 1em 0;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-icon {
+    font-size: 40px;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
 @media screen and (max-width: 768px) {
     /* Tablet Styles */
     .header-container {
